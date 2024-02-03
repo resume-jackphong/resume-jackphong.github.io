@@ -1,0 +1,179 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+%\documentclass[a4paper,30pt]{article}
+\documentclass[11pt]{extreport}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2}  \vspace{1mm} \\
+      {#3} & \textbf{#4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\vspace*{-40pt}
+\begin{center}
+	\textbf{{\LARGE Jack Hong}} \\
+	      \vspace{2mm}
+
+    (651) 248-2041 $|$ jack.h18870@gmail.com $|$ U.S. Citizen
+\end{center}
+\vspace{-4mm}
+
+%-----------Skills-----------------
+% \section{Skills}
+% \vspace{-1.5mm}
+%-----------Experience-----------------
+\section{Work Experience}
+\resumeSubheading{Flexport}{Feb 2023 - Present}
+    {\textit{Software Engineer}}{}
+    \vspace{-3mm}
+    \begin{itemize}
+    \item[\textperiodcentered] Optimized shipping label generation by switching to ZPL-based labels from PDFs, reducing AWS costs by decreasing compute and S3 storage.
+    \item[\textperiodcentered] Developed a Java Spring Backend and Javascript frontend for printer management in the warehouse app.
+    \item[\textperiodcentered] Implemented pallet identification on labels, saving significant man-hours in warehouse cycle counts. 
+        \item[\textperiodcentered] Fixed email scrapers and improved email scraping success rate from an initial 40\% success rate to a 100\% scrape rate.
+    \item[\textperiodcentered] Contributed to 24/7 operations via on-call rotations and troubleshooting.
+
+      \vspace{-1mm}
+    \end{itemize}
+
+\resumeSubheading{Meta}{May 2022 - Aug 2022}
+    {\textit{Software Engineering Intern}}{}
+    \vspace{-3mm}
+    \begin{itemize}
+    \item[\textperiodcentered] Summer internship with the Ads Machine Learning Infrastructure team.
+    \vspace{-1mm}
+     \item[\textperiodcentered] Collected data pipeline downtime metrics in Python for internal dashboards, aiding infrastructure team oncall rotations.
+      \vspace{-1mm}
+    \end{itemize}
+    %-----------Item 1---------------
+    
+    \resumeSubheading{Capital One}{Jun 2021 - Aug 2021}
+    {\textit{Software Engineering Intern}}{}
+    \vspace{-3mm}
+    \begin{itemize}
+    \item[\textperiodcentered] Summer internship with the Retail Direct Technology team. This team builds consumer facing products (Website, various banking apps)
+    \vspace{-1mm}
+    \item[\textperiodcentered] Created an ATM Locator API for the Capital One Banking app using node.js.
+    \vspace{-1mm}
+    \end{itemize}
+    %-----------Item 1---------------
+    
+    \resumeSubheading{Intel}{Nov 2020 - May 2021}
+    {\textit{Firmware Engineering Intern}}{}
+    \vspace{-3mm}
+    \begin{itemize}
+     \item[\textperiodcentered] Winter Internship at Intel, in the Intel Optane Group. 
+     \vspace{-1mm}
+    \vspace{-1mm}\item[\textperiodcentered] Developed testing infrastructure in Python for C firmware for Optane SSD controllers at Intel.
+    \vspace{-1mm}\item[\textperiodcentered] Integrated the Green Hills Software Debugger with pytest for firmware deployment and development.
+    \end{itemize}
+    %-----------Item 2---------------
+    
+    \resumeSubheading{University of Michigan}{Sep 2019 - Dec 2022}
+    {\textit{Lead Teaching Assistant}}{}
+    \vspace{-3mm}
+    \begin{itemize}
+    \item[\textperiodcentered] Oversaw over 800 students each semester in EECS 370, Introduction to Computer Organization
+    \vspace{-1mm}
+    \item[\textperiodcentered] In EECS 370, students learn 
+    about C, C++, ARM assembly, virtual memory, caching, and processor pipelines
+    \vspace{-1mm}
+    \item[\textperiodcentered] Established the current EECS 370 website \& website infrastructure, now maintained by current staff.
+    \vspace{-1mm}
+    \end{itemize}
+
+    \section{Skills}
+        \underline{Programming Languages \& Tools}: Java, Java Spring, Javascript, Typescript, C, C++, Python, Ruby
+
+        
+        \underline{Operating Systems}: MacOS, Linux, and Windows
+      \vspace{2mm}
+
+
+\vspace{-1.5mm}
+
+    %-----------EDUCATION-----------------
+\section{Education}
+        \resumeSubheading{\underline{University of Michigan, Ann Arbor}} {Jan 2022 - Dec 2022}
+      {Master of Science \& Engineering, Computer Science}{GPA: 4.00}
+     
+      \vspace{2mm}
+    \resumeSubheading{\underline{University of Michigan, Ann Arbor}}{Sept 2018 - Dec 2021}
+      {Bachelor of Science \& Engineering, Computer Science}{GPA: 3.82}
+    \vspace{-1mm}
+
+\vspace{-1.5mm}
+\vspace{-5pt}
+
+\end{document}
