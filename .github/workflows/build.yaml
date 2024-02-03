@@ -30,11 +30,11 @@ jobs:
               with:
                   root_file: Jack_Hong_Resume.tex
 
-            # - name: Post Processing
-            #   run: |
-            #       mkdir build 
-            #       cp *.pdf build/ 
-            #       cp index.html build/
+            - name: Post Processing
+              run: |
+                  mkdir build 
+                  cp *.pdf build/ 
+                  cp index.html build/
                   
             - name: Git add
               run: git add Jack_Hong_Resume.pdf
@@ -44,5 +44,5 @@ jobs:
               with:
                   BRANCH: gh-pages
                   FOLDER: ./
-                  # FOLDER: build
+                  FOLDER: build
                   CLEAN: true
