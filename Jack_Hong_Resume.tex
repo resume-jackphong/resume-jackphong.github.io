@@ -6,7 +6,7 @@
 %------------------------
 
 %\documentclass[a4paper,30pt]{article}
-\documentclass[11pt]{extreport}
+\documentclass[10pt]{extreport}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -98,13 +98,13 @@
     {\textit{Software Engineer - Warehousing}}{}
     \vspace{-2mm}
     \begin{itemize}
-    \item[\textperiodcentered] Transformed the multi-step label printing process into a single click. I created a new Java spring backend to generate ZPL labels and new Javascript and Typescript interfaces for printer management.
+    \item[\textperiodcentered] Reduced the multi-step label printing process to one click by creating a full-stack flow from scratch, requiring new Java Spring Boot backend service and React user interface.
         \vspace{-2mm}
 
-    \item[\textperiodcentered] Updated and refactored email scrapers for the Amsterdam warehouse, increasing success rates from 40\% to over 90\%. Collaborated closely with operators to identify and address flakiness issues, used datadog to monitor scrapers for improved stability, and introduced new scrapers to track invoicing emails, reducing cost leakage and enhancing operational efficiency. 
+    \item[\textperiodcentered] Increased the success rate of email scrapers from 40\% to 90\% by redesigning email scraping. This was a user driven process - operators in the Amsterdam warehouse brought up flakiness issues with prior scrapers. I used datadog to monitor scrapers and introduced new scrapers to track invoicing emails. This work reduced cost leakages in invoicing and enhancing operational efficiency by reducing tedious email overhead.
             \vspace{-2mm}
 
-   \item[\textperiodcentered] Optimized the Warehouse cycle count process by adding unique pallet identifiers to pallet labels. Instead of using pen and paper, cycle counts now use label scans to update shipment milestones.
+   \item[\textperiodcentered] Collaborated with cross functional teams to support Flexport’s integration with TipTop, a supply chain management tool. TipTop would send shipment events to Flexport, and another team would do some basic parsing of those events. I updated the Ruby backend to read these events and update warehouse relevant milestones. This improved operational efficiency by reducing the burden on operators.
            \vspace{-2mm}
 
    \item[\textperiodcentered] Collaborated with cross functional teams to support Flexport's integration with TipTop, a supply chain management tool. 
@@ -114,9 +114,11 @@
     {\textit{Software Engineering Intern - Ads Machine Learning Infrastructure}}{}
     \vspace{-2mm}
     \begin{itemize}
-     \item[\textperiodcentered] Added code to monitor health of Ads Machine Learning pipelines and to collect status metrics.
+     \item[\textperiodcentered] Introduced monitoring for Ads Machine Learning pipelines by using Python to collect status metrics.
+
      \vspace{-2mm}
-     \item[\textperiodcentered] Used the internal dashboard tool, Unidash to present information to oncall engineers, assisting with debugging.
+     \item[\textperiodcentered] Improved time to resolution for oncall engineers by surfacing debug information to oncall engineers through Unidash (an internal dashboard tool). This information was sourced from the status metrics I collected.
+
      \vspace{-2mm}
      \item[\textperiodcentered] Used Python multi-threading to optimize metrics collection and updates.
     \end{itemize}
@@ -183,7 +185,9 @@
       \vspace{2mm}
     \resumeSubheading{\underline{University of Michigan, Ann Arbor}}{Sept 2018 - Dec 2021}
       {Bachelor of Science \& Engineering, Computer Science}{GPA: 3.82}
-    \vspace{-1mm}
+            \vspace{2mm}
+
+      {\textbf{Selected Courses:} Natural Language Processing, Advanced Compilers, Distributed Systems, Parallel Computer Architecture, Parallel Programming with GPUs, Computer Architecture, Computer Vision, Operating Systems, Embedded Systems, Technology to Optimize Human Learning}{}
 
 \vspace{-1.5mm}
 \vspace{-5pt}
