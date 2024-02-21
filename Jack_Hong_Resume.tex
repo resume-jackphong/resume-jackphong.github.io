@@ -6,7 +6,7 @@
 %------------------------
 
 %\documentclass[a4paper,30pt]{article}
-\documentclass[10pt]{extreport}
+\documentclass[11pt]{extreport}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -80,14 +80,12 @@
 \begin{document}
 
 %----------HEADING-----------------
-\vspace*{-40pt}
+\vspace*{-50pt}
 \begin{center}
 	\textbf{{\LARGE Jack Hong}} \\
-	      \vspace{2mm}
 
     (651) 248-2041 $|$ jack.h18870@gmail.com $|$ U.S. Citizen
 \end{center}
-\vspace{-4mm}
 
 %-----------Skills-----------------
 % \section{Skills}
@@ -95,99 +93,71 @@
 %-----------Experience-----------------
 \section{Work Experience}
 \resumeSubheading{Flexport}{Feb 2023 - Feb 2024}
-    {\textit{Software Engineer - Java, GraphQL, gRPC, Ruby, Typescript, React, Next.js, Postgres, AWS}}{}
-    \vspace{-2mm}
-    \begin{itemize}
+    {\textit{Software Engineer - Java, GraphQL, gRPC, Ruby, Typescript, React, Next.js, Postgres}}{}
+    \begin{itemize}[leftmargin=*]
     \item[\textperiodcentered] Reduced the multi-step label printing process to one click by creating a full-stack flow from scratch, requiring new Java Spring Boot backend service and React user interface.
-        \vspace{-2mm}
-
-    \item[\textperiodcentered] Increased the success rate of email scrapers from 40\% to 90\% by redesigning email scraping. This was a user driven process - operators in the Amsterdam warehouse brought up flakiness issues with prior scrapers. I used datadog to monitor scrapers and introduced new scrapers to track invoicing emails. This work reduced cost leakages in invoicing and enhancing operational efficiency by reducing tedious email overhead.
-            \vspace{-2mm}
-
-   \item[\textperiodcentered] Collaborated with cross functional teams to support Flexport’s integration with TipTop, a supply chain management tool. TipTop would send shipment events to Flexport, and another team would do some basic parsing of those events. I updated the Ruby backend to read these events and update warehouse relevant milestones. This improved operational efficiency by reducing the burden on operators.
-           \vspace{-2mm}
-
-   \item[\textperiodcentered] Collaborated with cross functional teams to support Flexport's integration with TipTop, a supply chain management tool. 
+\vspace{-1.5mm}
+    \item[\textperiodcentered] Increased the success rate of email scrapers from 40\% to 90\% by redesigning email scraping. This work reduced cost leakages in invoicing and saved money on each shipment routed to the Amsterdam warehouse. Used datadog alerts for monitoring to prevent future issues with scraping.
+\vspace{-1.5mm}
+   \item[\textperiodcentered] Supported Flexport’s integration with TipTop, a supply chain management tool by updating the Ruby backend to read TipTop shipment events and update relevant warehouse milestones. This collaboration reduced data entry overhead on warehouse managers.
     \end{itemize}
 
 \resumeSubheading{Meta}{May 2022 - Aug 2022}
     {\textit{Software Engineering Intern - Python, Presto}}{}
-    \vspace{-2mm}
-    \begin{itemize}
+    \begin{itemize}[leftmargin=*]
      \item[\textperiodcentered] Introduced monitoring for Ads Machine Learning pipelines by using Python to collect status metrics.
-
-     \vspace{-2mm}
-     \item[\textperiodcentered] Improved time to resolution for oncall engineers by surfacing debug information to oncall engineers through Unidash (an internal dashboard tool). This information was sourced from the status metrics I collected.
-
-     \vspace{-2mm}
+\vspace{-1.5mm}
+    \item[\textperiodcentered] Improved time to resolution for oncall engineers by surfacing debug information to oncall engineers through Unidash (internal dashboard tool). This information was sourced from the status metrics I collected.
+\vspace{-1.5mm}
      \item[\textperiodcentered] Used Python multi-threading to optimize metrics collection and updates.
     \end{itemize}
     %-----------Item 1---------------
     
     \resumeSubheading{Capital One}{Jun 2021 - Aug 2021}
     {\textit{Software Engineering Intern - Node.js}}{}
-    \vspace{-2mm}
-    \begin{itemize}
+    \begin{itemize}[leftmargin=*]
 %  Worked on an all intern team. Hackathon-esque project in the Capital One banking app. 
 % Presented project to Retail Direct Business Unit (Over 300 people)
     \item[\textperiodcentered] Worked on an all intern team to create a ATM Locator feature in the Capital One banking app.
-            \vspace{-2mm}
-
-        \item[\textperiodcentered] I created the node.js backend to support the ATM locator service.
-                \vspace{-2mm}
-
-        \item[\textperiodcentered] Our intern team presented our project to the Retail Direct business unit to over 300 stakeholders.
+\vspace{-1.5mm}
+        \item[\textperiodcentered] Created the node.js backend to support the ATM locator service.
     \end{itemize}
     %-----------Item 1---------------
     
     \resumeSubheading{Intel}{Nov 2020 - May 2021}
     {\textit{DevOps Engineering Intern - Python, C, C++}}{}
-    \vspace{-2mm}
-    \begin{itemize}
+    \begin{itemize}[leftmargin=*]
     % Basically hooked up Pytest with GHS for testing.
     \item[\textperiodcentered] Worked on Python testing infrastructure for FPGA and ASIC SSD controller using pytest. This allowed the CI/CD pipeline to run tests on real silicon - FPGAs and ASICs
-            \vspace{-2mm}
-
+\vspace{-1.5mm}
     \item[\textperiodcentered] Wrote Python code to integrate Green Hills Software Debugger with the CI/CD pipelines to prevent regressions in SSD controller firmware. 
-            \vspace{-2mm}
-
-    \item[\textperiodcentered] My work 
- improved code quality across the Optane group - prior to my work code regressions were much harder to track and exceedingly common, due to the lack of device testing on deploys.
+\vspace{-1.5mm}
+    \item[\textperiodcentered] Improved code quality across the Intel Optane group. My work with testing infrastructure prevented regressions by adding additional on device firmware tests. 
     \end{itemize}
     %-----------Item 2---------------
     
     \resumeSubheading{University of Michigan}{Sep 2019 - Dec 2022}
     {\textit{Lead Teaching Assistant - C, C++, Javascript}}{}
-        \vspace{-2mm}
-    \begin{itemize}
+    \begin{itemize}[leftmargin=*]
     \item[\textperiodcentered] Created the brand new EECS 370 website \& website infrastructure using GitHub pages and actions, now maintained by current staff.
-        \vspace{-2mm}
-    \item[\textperiodcentered] Created a brand new Branch Predictor based project for students to code in C. This required a new project spec, starter files, and an autograder.
-        \vspace{-2mm}
+\vspace{-1.5mm}
     \item[\textperiodcentered] Oversaw over 800 students each semester in EECS 370, Introduction to Computer Organization
-        \vspace{-2mm}
+\vspace{-1.5mm}
     \item[\textperiodcentered] Led office hours where students learned
     about C, C++, ARM assembly, virtual memory, caching, and processor pipelines
     \end{itemize}
 
-    % \section{Skills}
-    %     \underline{Programming Languages \& Tools}: Java, Java Spring, Javascript, Typescript, C, C++, Python, Ruby
-    %   \vspace{2mm}
-
-
-\vspace{-1.5mm}
-
     %-----------EDUCATION-----------------
 \section{Education}
-        \resumeSubheading{\underline{University of Michigan, Ann Arbor}} {Jan 2022 - Dec 2022}
-      {Master of Science \& Engineering, Computer Science}{ GPA: 4.00}
+        \resumeSubheading{University of Michigan, Ann Arbor} {Jan 2022 - Dec 2022}
+      {Master of Science \& Engineering, Computer Science}{GPA: 4.00}
      
       \vspace{2mm}
-    \resumeSubheading{\underline{University of Michigan, Ann Arbor}}{Sept 2018 - Dec 2021}
+    \resumeSubheading{University of Michigan, Ann Arbor}{Sep 2018 - Dec 2021}
       {Bachelor of Science \& Engineering, Computer Science}{GPA: 3.82}
             \vspace{2mm}
 
-      {\textbf{Selected Courses:} Natural Language Processing (Python), Advanced Compilers (C++, LLVM), Distributed Systems (Go), Parallel Computer Architecture (Verilog), Parallel Programming with GPUs (C++, CUDA) , Computer Architecture (Verilog), Computer Vision (Python), Operating Systems (C++), Embedded Systems (C++, ARM), Technology to Optimize Human Learning (Python) }{}
+      {\textbf{Selected Courses:} Natural Language Processing (\textit{Python}), Advanced Compilers (\textit{C++, LLVM}), Distributed Systems (\textit{Go}), Parallel Computer Architecture (\textit{Verilog}), Parallel Programming with GPUs (\textit{C++, CUDA}), Computer Architecture (\textit{Verilog}), Computer Vision (\textit{Python}), Operating Systems (\textit{C++}), Embedded Systems (\textit{C++, ARM}), Technology to Optimize Human Learning (\textit{Python}) }{}
 
 \vspace{-1.5mm}
 \vspace{-5pt}
